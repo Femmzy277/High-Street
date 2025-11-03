@@ -1,0 +1,855 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.listall {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(21, 21, 21);
+}
+.summer {
+  display: flex;
+  gap: 20px;
+  color: whitesmoke;
+  font-family: "Noto Sans JP", sans-serif;
+  padding-top: 10px;
+  font-size: small;
+  font-weight: solid;
+  justify-content: center;
+}
+.allssco {
+  display: flex;
+  gap: 20px;
+}
+.allsscon {
+  display: flex;
+  gap: 20px;
+}
+.wear {
+  height: 95vh;
+  margin-top: -6px;
+  background-image: url(static/image/bikewear.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(207, 201, 201);
+  background-blend-mode: multiply;
+}
+.navbar {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: rgb(222, 222, 222);
+  font-size: small;
+  font-weight: bold;
+}
+.allmenu {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  &:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: 0.57s ease-in-out;
+  }
+}
+.hflog {
+  margin-bottom: 20px;
+}
+.log {
+  display: flex;
+  gap: 10px;
+  color: whitesmoke;
+  font-size: small;
+  font-weight: bold;
+}
+.pincode {
+  cursor: pointer;
+}
+.pin {
+  position: relative;
+}
+.pin::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  width: 0px;
+  bottom: -3px;
+  height: 2px;
+  background-color: beige;
+  transition: 0.5s ease-in-out;
+}
+.pin:hover::before {
+  width: 100%;
+}
+.line {
+  border-bottom: rgba(245, 222, 179, 0.425);
+  border-style: solid;
+  border-width: 1px;
+  border-top: 0px;
+}
+.Navemenu {
+  cursor: pointer;
+}
+.menu {
+  position: relative;
+}
+.menu::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: -3px;
+  height: 2px;
+  width: 0px;
+  background-color: white;
+  transition: 0.5s ease-in-out;
+}
+.menu:hover::before {
+  width: 100%;
+}
+.butcut {
+  display: flex;
+  margin-top: 20rem;
+  position: fixed;
+}
+#text {
+  background-color: whitesmoke;
+  display: inline;
+  height: 40px;
+  width: 90px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.but > button {
+  width: 150px;
+  height: 50px;
+  border-radius: 150px;
+  background-color: rgb(67, 67, 67);
+  cursor: pointer;
+  margin-left: 60rem;
+  color: whitesmoke;
+}
+.oure {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  color: whitesmoke;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.nw {
+  font-size: smaller;
+  font-weight: bold;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.exsn {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.explore {
+  font-size: small;
+  font-weight: solid;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.sni > a {
+  font-size: smaller;
+  font-weight: solid;
+  font-family: "Noto Sans JP", sans-serif;
+  color: black;
+  cursor: pointer;
+  text-decoration: antiquewhite;
+}
+.sn {
+  position: relative;
+}
+.sn::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  width: 0px;
+  bottom: -3px;
+  height: 2px;
+  background-color: black;
+  transition: 0.5s ease-in-out;
+}
+.sn:hover::before {
+  width: 100%;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 35px;
+}
+.box1 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/capp.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/capamn.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.box1 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.box1 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+}
+.box2 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/HF_Short.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/baggy.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.box2 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.box2 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+}
+.box3 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/giant.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/side\ timber.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.box3 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.box3 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+}
+.box4 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hfx.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/hfxpink.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.box4 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.box4 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 160px;
+}
+.boxes1 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hfashy.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/hf_black.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.boxes1 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.boxes1 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+}
+.boxes2 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hfhoods.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/hfhoodcpt.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.boxes2 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.boxes2 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+}
+.boxes3 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hfpinky.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/hfpinkywhit.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.boxes3 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.boxes3 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+}
+.boxes4 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hflady.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/hffemcomp.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.boxes4 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.boxes4 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+}
+.big {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.bigbox1 {
+  width: 623px;
+  height: 779px;
+  position: relative;
+  background-color: rgb(201, 192, 192);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hf2lady.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bio > p {
+  position: absolute;
+  color: aliceblue;
+  top: 42rem;
+  left: 3rem;
+  font-weight: bold;
+  font-size: small;
+  letter-spacing: 4px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.bio > a {
+  position: absolute;
+  color: rgb(165, 34, 34);
+  top: 44rem;
+  left: 3rem;
+  font-weight: bold;
+  font-size: larger;
+  letter-spacing: 2px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-decoration: aliceblue;
+}
+.ex {
+  position: relative;
+}
+.ex::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  width: 0px;
+  bottom: -3px;
+  height: 1px;
+  background-color: white;
+  transition: 0.5s ease-in-out;
+}
+.ex:hover::before {
+  width: 100%;
+}
+.bigbox2 {
+  width: 623px;
+  height: 779px;
+  position: relative;
+  background-color: rgb(201, 192, 192);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hfmale.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xio > p {
+  position: absolute;
+  color: aliceblue;
+  top: 42rem;
+  left: 3rem;
+  font-weight: bold;
+  font-size: small;
+  letter-spacing: 4px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.xio > a {
+  position: absolute;
+  color: rgb(28, 27, 27);
+  top: 44rem;
+  left: 3rem;
+  font-weight: bold;
+  font-size: larger;
+  letter-spacing: 2px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-decoration: aliceblue;
+}
+.xes {
+  position: relative;
+}
+.xes::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  width: 0px;
+  bottom: -3px;
+  height: 1px;
+  background-color: white;
+  transition: 0.5s ease-in-out;
+}
+.xes:hover::before {
+  width: 100%;
+}
+.lin {
+  width: 100%;
+  margin-top: 100px;
+  border: none;
+  height: 1px;
+  background-color: whitesmoke;
+}
+.moreshop {
+  position: relative;
+}
+.more > h2 {
+  margin-top: 100px;
+  font-weight: bolder;
+  font-size: small;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+}
+.moreshop > a {
+  position: absolute;
+  top: 3rem;
+  left: 35rem;
+  font-size: small;
+  font-family: "Noto Sans JP", sans-serif;
+  color: rgb(0, 0, 0);
+  text-decoration: antiquewhite;
+}
+.shoppp {
+  position: relative;
+}
+.shoppp::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  width: 0px;
+  bottom: -3px;
+  height: 1px;
+  background-color: black;
+  transition: 0.5s ease-in-out;
+}
+.shoppp:hover::before {
+  width: 100%;
+}
+.newb {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 70px;
+}
+.newbox1 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hf\ colour.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/colorf.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.newbox1 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.newbox1 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.newbox2 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/baggy.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/capamn.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.newbox2 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.newbox2 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.newbox3 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hfhoodcpt.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/giant.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.newbox3 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.newbox3 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.newbox4 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/hfashy.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/HF_Short.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.newbox4 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.newbox4 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.lastbox {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+}
+.lastbox1 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/bluehf.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/bluehftrou.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.lastbox1 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.lastbox1 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.lastbox2 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/bluemancompt.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/bluemanhf.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.lastbox2 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.lastbox2 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.lastbox3 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/blueshort.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/bluetimber.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.lastbox3 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.lastbox3 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.lastbox4 {
+  width: 264px;
+  height: 330px;
+  background-color: rgb(246, 246, 246);
+  background-blend-mode: multiply;
+  background-image: url(static/image/colorf.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &:hover {
+    background-image: url(static/image/hf\ colour.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    cursor: pointer;
+  }
+}
+.lastbox4 > p {
+  font-size: smaller;
+  font-weight: 400px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.lastbox4 > span {
+  margin-left: 70px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.foot {
+  width: 1246px;
+  height: 587px;
+  margin-top: 15rem;
+  background-color: rgb(21, 21, 21);
+  position: relative;
+}
+.footimg {
+  position: absolute;
+  top: 10rem;
+}
