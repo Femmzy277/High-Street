@@ -3,8 +3,12 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
 .listall {
+  position: fixed;
   width: 100%;
   height: 40px;
   background-color: rgb(21, 21, 21);
@@ -95,6 +99,10 @@
 .Navemenu {
   cursor: pointer;
 }
+.navbar > a {
+  text-decoration: none;
+  color: whitesmoke;
+}
 .menu {
   position: relative;
 }
@@ -112,9 +120,10 @@
   width: 100%;
 }
 .butcut {
-  display: flex;
-  margin-top: 20rem;
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27rem;
 }
 #text {
   background-color: whitesmoke;
@@ -127,14 +136,23 @@
   margin-top: 10px;
   margin-left: 20px;
 }
-.but > button {
-  width: 150px;
-  height: 50px;
-  border-radius: 150px;
+.chat-btn {
+  display: inline-block;
+  margin-left: 55rem;
+  margin-top: 9px;
+  padding: 13px 30px;
+  color: white;
+  border-radius: 30%;
+  font-size: large;
+  background-color: black;
+  transition: 0.3s;
+}
+/* .but > a {
+
+
+} */
+.chat-btn:hover {
   background-color: rgb(67, 67, 67);
-  cursor: pointer;
-  margin-left: 60rem;
-  color: whitesmoke;
 }
 .oure {
   text-align: center;
@@ -444,9 +462,8 @@
   margin-top: 200px;
 }
 .bigbox1 {
-  width: 623px;
+  width: 50%;
   height: 779px;
-  position: relative;
   background-color: rgb(201, 192, 192);
   background-blend-mode: multiply;
   background-image: url(static/image/hf2lady.webp);
@@ -492,9 +509,8 @@
   width: 100%;
 }
 .bigbox2 {
-  width: 623px;
+  width: 50%;
   height: 779px;
-  position: relative;
   background-color: rgb(201, 192, 192);
   background-blend-mode: multiply;
   background-image: url(static/image/hfmale.webp);
@@ -843,20 +859,18 @@
   cursor: pointer;
 }
 .foot {
-  width: 1246px;
-  height: 587px;
+  width: 100%;
+  min-height: 80vh;
   margin-top: 15rem;
   background-color: rgb(21, 21, 21);
-  position: relative;
 }
 .footimg {
-  position: absolute;
   top: 10rem;
 }
 .footer-writeUp {
   display: flex;
   justify-content: space-between;
-  padding: 5rem 5rem;
+  padding: 5rem 3rem;
 }
 .highf {
   color: white;
@@ -870,13 +884,18 @@
   color: white;
   list-style: none;
   margin-right: 10rem;
-  cursor: pointer;
+}
+.QuickLink > a {
+  text-decoration: none;
+  color: whitesmoke;
+  :hover {
+    color: rgba(76, 86, 82, 0.773);
+  }
 }
 .QuickLink > h3 {
   font-weight: 900;
   font-size: 1rem;
   margin-bottom: 16px;
-  cursor: pointer;
 }
 .footerlist {
   padding: 5px;
@@ -885,75 +904,75 @@
 .shop {
   color: white;
   list-style: none;
-  cursor: pointer;
 }
 .shop > h3 {
-  font-weight: 900;
+  font-weight: 900px;
   font-size: 1rem;
   margin-bottom: 16px;
-  cursor: pointer;
+}
+.shop > a {
+  text-decoration: none;
+  color: white;
+  :hover {
+    color: rgba(76, 86, 82, 0.773);
+  }
 }
 .shoplist {
-  font-weight: 900;
+  font-weight: 900px;
   font-size: 10px;
   cursor: pointer;
 }
-.intsorder{
+
+.intsorder {
   display: flex;
   padding-left: 80px;
   position: relative;
   gap: 4rem;
 }
-.instagram>a>span{
+.instagram > a > span {
   position: absolute;
   bottom: 11rem;
-
 }
-.hours{
+.hours {
   color: white;
   font-weight: bolder;
   font-size: 0.9rem;
   position: absolute;
-  bottom: 6rem;
+  bottom: 7rem;
 }
-.lekki{
+.lekki {
   color: white;
   font-size: small;
   padding-bottom: 25px;
 }
-.tions{
+.tions {
   font-size: 0.8rem;
   font-weight: bolder;
-    text-decoration: underline;
-    text-underline-offset: 3px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
-.tions>a{
+.tions > a {
   color: white;
 }
-.off{
-   color: white;
+.off {
+  color: white;
   font-weight: bolder;
   position: absolute;
-  bottom: 6rem;
-  padding-left: 165px;
+  bottom: 7rem;
+  padding-left: 13rem;
   font-size: small;
-} 
-.nextorder>p{
+}
+.nextorder > p {
   color: white;
   font-size: small;
-  padding-left: 50px;
+  padding-left: 30px;
+  text-align: center;
 }
-.nextorder>p>a{
+.nextorder > p > a {
   color: white;
 }
-.nextorder>input{
- width: 500px;
- height: 50px;
-}
-.nextorder>input:focus{
-  border-color: white;
-  background-color: black;
-  border: none;
-  border-width: 2px;
-
+.copy-copy{
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(177, 180, 180);
 }
