@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#060606e8" />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/a9a4fdb155.js"
@@ -64,29 +65,38 @@
       </div>
     </marquee>
     <!-- marquee-start -->
-    <div class="wear">
+    <div class="wear" id="home">
       <div class="allmenu">
+        <div class="menu-icon" id="menuIcon" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
         <nav class="Navemenu">
           <ul class="navbar">
-            <a href=""><li class="menu">HOME</li></a>
+            <a href="#home"><li class="menu">HOME</li></a>
             <a href="#shopUs"><li class="menu">SHOP</li></a>
-            <a href=""><li class="menu">ABOUT</li></a>
-            <a href=""><li class="menu">FAQ</li></a>
+            <a href="#EX"><li class="menu">ABOUT</li></a>
+            <a href="#footer"><li class="menu">FAQ</li></a>
             <a href="#footer"> <li class="menu">CONTACT</li></a>
           </ul>
         </nav>
+
         <div class="hflog">
           <img src="static/image/hf.svg" alt="hf logo" />
         </div>
+
         <div class="log">
           <div class="pincode">
             <p class="pin">LOGIN</p>
           </div>
+
           <span>
             <i
               class="fa-solid fa-magnifying-glass fa-lg"
               style="color: #f0f0f0"
             ></i>
+          </span>
+
+          <span>
             <i
               class="fa-solid fa-cart-shopping fa-lg"
               style="color: #eaeaec"
@@ -94,9 +104,9 @@
           ></span>
         </div>
       </div>
-      <div class="line">
-        <!-- <hr /> -->
-      </div>
+
+      <div class="line"></div>
+
       <div class="oure">
         <span>EXPLORE OUR NEW COLLECTIONS</span>
       </div>
@@ -108,28 +118,34 @@
         <span><p>NEW IN</p></span>
       </div>
       <!-- newline-end -->
+
       <div class="exsn">
         <div class="explore">
           <p>EXPLORE OUR NEW COLLECTION</p>
         </div>
+
         <div class="sni">
-          <a class="sn" href="">Shop New In</a>
+          <a class="sn" href="#">Shop New In</a>
         </div>
       </div>
+
       <!-- boxs-start -->
       <div class="box">
         <div class="box1">
           <p>HS RECYCLED CAMO HAT</p>
           <span>$252.22 USD</span>
         </div>
+
         <div class="box2">
           <p>HS FADED CAMO JORTS</p>
           <span>$383.81 USD</span>
         </div>
+
         <div class="box3">
           <p>HS FR7 SLEEVELESS TEE</p>
           <span>$219.32 USD</span>
         </div>
+
         <div class="box4">
           <p>HS X BURNA SLEEVLESS TEE</p>
           <span>$219.32 USD</span>
@@ -143,14 +159,17 @@
           <p>HS X 101 AVENUE HOODIE PANTS</p>
           <span>$328.98 USD</span>
         </div>
+
         <div class="boxes2">
           <p>HS X 101 AVENUE HOODIE TOP</p>
           <span>$328.98 USD</span>
         </div>
+
         <div class="boxes3">
           <p>HS PRINT FEMALE TOP</p>
           <span>$109.66 USD</span>
         </div>
+
         <div class="boxes4">
           <p>HS PRINT FEMALE SKIRT</p>
           <span>$109.66 USD</span>
@@ -159,11 +178,11 @@
       <!-- 2boxs-end -->
 
       <!-- bigbox-start -->
-      <div class="big">
+      <div class="big" id="EX">
         <div class="bigbox1">
           <div class="bio">
             <p>FROM OUR NEW COLLECTION</p>
-            <a class="ex" href="">
+            <a class="ex" href="#">
               <span>EXPLORE NOW</span>
             </a>
           </div>
@@ -172,7 +191,7 @@
         <div class="bigbox2">
           <div class="xio">
             <p>NEW RELEASES</p>
-            <a class="xes" href="">
+            <a class="xes" href="#">
               <span>EXPLORE NOW</span>
             </a>
           </div>
@@ -186,7 +205,7 @@
         <div class="more">
           <h2>EXPLORE MORE PRODUCTS</h2>
         </div>
-        <a class="shoppp" href="">
+        <a class="shoppp" href="#">
           <span>Shop All Products</span>
         </a>
       </div>
@@ -247,22 +266,22 @@
 
         <div class="QuickLink">
           <h3>Quick Link</h3>
-          <a href=""><li class="footerlist">Home</li></a>
-          <a href=""><li class="footerlist">About</li></a>
-          <a href=""><li class="footerlist">Contact</li></a>
-          <a href=""> <li class="footerlist">Fag</li></a>
+          <a href="#home"><li class="footerlist">Home</li></a>
+          <a href="#EX"><li class="footerlist">About</li></a>
+          <a href="#footer"><li class="footerlist">Contact</li></a>
+          <a href="#footer"> <li class="footerlist">Fag</li></a>
         </div>
 
         <div class="shop">
           <h3>SHOP</h3>
-          <a href=""><li class="shoplist">SHOP ALL</li></a>
+          <a href="#"><li class="shoplist">SHOP ALL</li></a>
         </div>
       </div>
       <!-- intsorder-start -->
       <div class="intsorder">
         <!-- instagram-start -->
         <div class="instagram">
-          <a href="">
+          <a href="#">
             <span
               ><i
                 class="fa-brands fa-instagram fa-xl"
@@ -280,7 +299,7 @@
             SHOP 12/49, FEMMZY'S MART MALL, ISLAND WAY, LAGOS, NIGERIA
           </p>
           <div class="tions">
-            <a href="">
+            <a href="#">
               <span>GET DIRECTIONS</span>
             </a>
           </div>
@@ -293,7 +312,7 @@
           <p>
             *BY SIGNING UP, YOU AGREE TO RECEIVE EMAILS ABOUT HIGHSTREET AND OUR
             LATEST SWAG COMING YOUR WAY*.
-            <a href="">
+            <a href="#">
               <span>OTHER TERMS</span>
             </a>
           </p>
@@ -301,9 +320,11 @@
         <!-- nextorder-end -->
       </div>
       <!-- intsorder-end -->
-      <div class="copy-copy"><p>© 2026 High Street by J.O.L, All Rights Reserved </p></div> 
-       
+      <div class="copy-copy">
+        <p>© 2026 High Street by J.O.L, All Rights Reserved</p>
+      </div>
     </footer>
     <!-- footer-end -->
+    <script src="script.js"></script>
   </body>
 </html>
